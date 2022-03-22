@@ -329,11 +329,11 @@ footer{background:url(img/teclado.jpg);}
   width: 100%;
 }
 .iconos{
-  display: flex;
   margin: auto;
   justify-content: space-around;
   width: 100%;
 }
+
 .fab{
   font-size:60px;
   color: #FFF;
@@ -346,12 +346,13 @@ footer p{
 }
 
 .cta{
+  justify-content: space-around;
   display: inline-block;
   text-decoration: none;
-  background-image: linear-gradient(45deg, #bd3ec9 0%, #b855ff 99%, #df66f7 100%);
+  background-image: linear-gradient(45deg, #e74ff5 0%, #bd6df7 99%, #e17ff5 100%);
   padding: 12px 15px;
   border-radius: 8px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 700px){
